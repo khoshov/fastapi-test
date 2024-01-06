@@ -1,7 +1,7 @@
 from databases import Database
 from fastapi import FastAPI
 
-database = Database("postgresql://postgres:postgres@db/postgres")
+database = Database("postgresql://postgres:postgres@db/example")
 
 app = FastAPI(debug=True)
 
