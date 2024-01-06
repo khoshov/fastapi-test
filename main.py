@@ -3,7 +3,7 @@ from fastapi import FastAPI
 
 database = Database("postgresql://postgres:postgres@db/postgres")
 
-app = FastAPI()
+app = FastAPI(debug=True)
 
 
 @app.get("/")
